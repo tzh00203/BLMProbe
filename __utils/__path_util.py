@@ -23,6 +23,8 @@ class global_path:
     
     __label_dict_path__ = __label_migration_result_path__ + "/tmp_label_dict.json"
     
+    __dataset_path__ = __raw_data_path__ + "dataset/"
+    
 class utils_path:
     # Path to the dictionary words file
     WORD_DICTIONARY_PATH = '/data_hdd/tzh24/zgc4/1_zgc_iot_iden/_4_DER/dictionary_words'

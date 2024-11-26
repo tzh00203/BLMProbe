@@ -26,7 +26,7 @@ def load_train_result(config):
 
     :param config: Dictionary containing log paths and configuration details.
     """
-    from _7_generate_train_data_N_ML._7_generate_util import (
+    from __generate_util import (
         extract_val_metrics_and_epoch,
         plot_training_loss_and_acc,
     )

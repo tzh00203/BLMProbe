@@ -238,11 +238,11 @@ def gen_dataset(origin_ip_dict_new, label_dict):
     # mrc_data_list = shuffle_with_seed(mrc_data_list)
     clas_data_list = shuffle_with_seed(clas_data_list)
 
-    with open(global_path.__label_migration_result_path__ + "/train", "w") as ff:
+    with open(global_path.__dataset_path__ + "/train.txt", "w") as ff:
         ff.write("\n".join(clas_data_list[:int(len(clas_data_list)/10*8)]))
-    with open(global_path.__label_migration_result_path__ + "/test", "w") as ff:
+    with open(global_path.__dataset_path__ + "/test.txt", "w") as ff:
         ff.write("\n".join(clas_data_list[int(len(clas_data_list)/10*8):int(len(clas_data_list)/10*9)]))
-    with open(global_path.__label_migration_result_path__ + "/valid", "w") as ff:
+    with open(global_path.__dataset_path__ + "/valid.txt", "w") as ff:
         ff.write("\n".join(clas_data_list[int(len(clas_data_list)/10*9):]))
     
     print(f1, f2, cnt_label_)

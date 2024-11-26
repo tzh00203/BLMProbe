@@ -50,7 +50,7 @@ tfidf_corpus, tfidf_corpus_id, corpus_id = load_tfidf_data(tfidf_path)
 
 # Generate a fingerprint for the given response
 def gen_fingerprint(response_tt, vendor, type_, product):
-    from _3_data_processing._3_data_TFIDF_util import tfidf_calc
+    from __data_processing.__data_TFIDF_util import tfidf_calc
     tfidf_corpus.append(response_tt)
     tfidf_corpus_id.append(corpus_id)
     tfidf_words_dict = tfidf_calc(tfidf_corpus, tfidf_corpus_id)

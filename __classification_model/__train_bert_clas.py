@@ -7,13 +7,13 @@ from datetime import timedelta
 from tqdm import tqdm
 
 import numpy as np
-import torch
+import torch 
 import torch.nn as nn
 import torch.nn.functional as F
 from sklearn import metrics
 from pytorch_pretrained_bert import BertModel, BertTokenizer
 from pytorch_pretrained_bert.optimization import BertAdam
-
+from __utils.__path_util import global_path
 
 class Config:
     """Configuration for the Model"""
@@ -22,9 +22,9 @@ class Config:
         self.dataset_name = dataset_name
 
         # Dataset paths
-        self.train_path = './dataset/data_1/train.txt'
-        self.dev_path = './dataset/data_1/valid.txt'
-        self.test_path = './dataset/data_1/test.txt'
+        self.train_path = global_path.__dataset_path__ + '/train.txt'
+        self.dev_path = global_path.__dataset_path__ + '/valid.txt'
+        self.test_path = global_path.__dataset_path__ + '/test.txt'
         self.dataset_pkl = f'./pkl/{dataset_name}.pkl'
 
         # Model paths

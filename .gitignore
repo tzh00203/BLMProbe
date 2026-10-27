@@ -1,0 +1,32 @@
+# ===== 数据与模型(数据集见 figshare,模型权重自行下载)=====
+data/*
+!data/README.md
+!data/util_data/
+data/util_data/*
+!data/util_data/dictionary_words
+!data/util_data/blacklist.txt
+!data/dataset/
+data/dataset/*
+!data/dataset/README.md
+!data/dataset/labeled_dataset_without_label_migration_sample.json
+model/
+log/
+
+# ===== 运行输出与归档 =====
+*.tar
+nohup.out*
+
+# ===== 扫描结果数据 =====
+shodan.txt*
+zoomeye.txt*
+source.txt
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== 草稿与结果图 =====
+caogaozhi.py
+k_means_result.*
+
+.DS_Store

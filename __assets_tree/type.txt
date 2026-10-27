@@ -1,0 +1,89 @@
+Router
+AP
+Switch
+Modem
+Firewall
+NIC
+Bridge
+Repeater
+Gateway
+NAS
+Printer
+Scanner
+Fax Machine
+Copier
+Desktop Computer
+Laptop
+Tablet
+Smartphone
+Smartwatch
+Server
+Workstation
+Projector
+Networked Camera
+NVR
+VoIP Phone
+UPS
+KVM Switch
+Load Balancer
+VoIP Gateway
+Network Analyzer
+Satellite Dish
+Smart TV
+Game Console
+Media Streaming Device
+Smart Speaker
+Smart Home Hub
+Smart Thermostat
+Smart Light Bulb
+Smart Lock
+Smart Doorbell
+Smart Plug
+Smart Smoke Detector
+Smart Refrigerator
+Smart Washing Machine
+Smart Dryer
+Smart Vacuum Cleaner
+Drone
+Fitness Tracker
+Virtual Reality Headset
+Digital Camera
+Digital Video Recorder
+GPS Navigation Device
+E-reader
+Smart Glasses
+Smart Clothing
+Biometric Devices
+Barcode Reader
+POS Terminal
+ATM
+IP Camera
+Bluetooth Adapter
+Wireless Charger
+Surge Protector
+RFID Reader
+Smart Card Reader
+Digital Audio Recorder
+MIDI Keyboard
+Digital Mixer
+Webcam
+camera
+ipcam
+netcam
+cam
+dvr
+router
+nvr
+nvs
+video server
+video encoder
+video recorder
+diskstation
+rackstation
+printer
+copier
+scanner
+switches
+modem
+switch
+gateway
